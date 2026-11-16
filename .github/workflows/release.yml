@@ -173,7 +173,7 @@ jobs:
   # ================= macOS：Universal（Apple Silicon + Intel）dmg =================
   macos:
     name: macOS (universal dmg)
-    runs-on: macos-latest
+    runs-on: macos-15-intel
     steps:
       - uses: actions/checkout@v4
 
